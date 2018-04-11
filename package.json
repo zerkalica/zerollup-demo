@@ -1,0 +1,25 @@
+{
+  "name": "zerollup-demo",
+  "version": "1.0.0",
+  "description": "Zero rollup plugins and toolset demo",
+  "private": false,
+  "config": {
+    "env": "production",
+    "rollup": "../../rollup.config.js"
+  },
+  "scripts": {
+    "clean": "rm -rf packages/*/.rpt2_cache packages/*/dist",
+    "clean.all": "lerna clean --yes && rm -rf packages/*/package-lock.json node_modules packages/*/.rpt2_cache packages/*/dist docs/*",
+    "build": "NODE_ENV=$npm_package_config_env rollup -c node:@zerollup/preset-ts",
+    "dev": "NODE_ENV=development rollup -w -c node:@zerollup/preset-ts",
+    "postinstall": "lerna bootstrap --hoist",
+    "publish": "lerna publish"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^2.9.1",
+    "typescript": "^2.8.1",
+    "@zerollup/preset-ts": "^1"
+  }
+}

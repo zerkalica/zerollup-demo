@@ -1,0 +1,33 @@
+{
+  "name": "zerollup-demo-site2",
+  "version": "1.0.1",
+  "license": "MIT",
+  "description": "Zerollup site2",
+  "author": {
+    "name": "Stefan Zerkalica",
+    "email": "zerkalica@gmail.com"
+  },
+  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/zerkalica/zerollup-demo",
+  "bugs": {
+    "url": "https://github.com/zerkalica/zerollup-demo/issues"
+  },
+  "homepage": "https://github.com/zerkalica/zerollup-demo/packages/site2/#readme",
+  "iife:main": "dist/index.js",
+  "files": [
+    "*.map",
+    "*.js",
+    "*.md",
+    "package.json",
+    "LICENSE",
+    "types",
+    "dist"
+  ],
+  "dependencies": {
+    "zerollup-demo-lib2": "^1",
+    "@zerollup/injector": "^1"
+  }
+}
