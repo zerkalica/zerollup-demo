@@ -1,23 +1,21 @@
-(function () {
+var zerollupDemoSite1 = (function (config) {
     'use strict';
 
-    var config = {
+    config = config && config.hasOwnProperty('default') ? config['default'] : config;
+
+    var config$1 = {
         assetsUrl: '/'
     };
 
-    var appConfig = {
-        some: 'site1-default',
-        assetsUrl: '/site1-root/'
-    };
-    config.assetsUrl = appConfig.assetsUrl;
+    config$1.assetsUrl = config.assetsUrl;
 
-    var faceAngel = config.assetsUrl + "zerollup_demo_lib1/face_angel.png";
+    var faceAngel = config$1.assetsUrl + "zerollup_demo_lib1/face_angel.png";
 
-    function app(config) {
-        console.log(config, faceAngel);
+    function app(node) {
+        console.log(node, config, faceAngel);
     }
 
-    app(appConfig);
+    return app;
 
-}());
+}(zerollupDemoSite1Config));
 //# sourceMappingURL=index.js.map
