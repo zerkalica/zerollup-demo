@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/zerkalica/zerollup-demo/packages/site1/#readme",
   "iife:main": "dist/index.js",
+  "typings": "dist/typings/index.d.ts",
   "files": [
     "*.map",
     "*.js",

@@ -17,7 +17,7 @@
   "homepage": "https://github.com/zerkalica/zerollup-demo/packages/lib2/#readme",
   "main": "dist/index.cjs.js",
   "module": "dist/index.mjs",
-  "typings": "dist/index.d.ts",
+  "typings": "dist/typings/index.d.ts",
   "files": [
     "*.map",
     "*.js",

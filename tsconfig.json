@@ -1,11 +1,16 @@
 {
 	"compilerOptions": {
 		"baseUrl": "packages",
+		"paths": {
+			"zerollup-demo-lib1/*": ["lib1/src/*"],
+			"zerollup-demo-lib2/*": ["lib2/src/*"],
+			"zerollup-demo-site1/*": ["site1/src/*"],
+			"zerollup-demo-*": ["*/src"]
+		},
 		"newLine": "LF",
 		"allowSyntheticDefaultImports": false,
 		"module": "esnext",
 		"target": "es5",
-                "declaration": true,
 		"moduleResolution": "node",
 		"sourceMap": true,
 		"lib": [
@@ -21,5 +26,7 @@
 		"strictFunctionTypes": true,
 		"removeComments": false,
 		"experimentalDecorators": true
-	}
+	},
+        "exclude": ["dist", "node_modules"],
+        "include": ["packages/*/src"]
 }
