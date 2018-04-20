@@ -18,7 +18,16 @@ export default [
             commonjs(),
             typescript({
                 // verbosity: 3,
-                tsconfig: path.join(pkgRoot, 'lib1', 'tsconfig.json')
+                tsconfig: path.join(pkgRoot, 'lib1', 'tsconfig.json'),
+                useTsconfigDeclarationDir: true,
+                // tsconfigOverride: {
+                //     // compilerOptions: {
+                //     //     declarationDir: path.join(pkgRoot, 'lib1', 'dist', 'typings')
+                //     // },
+                //     include: [
+                //         path.join(pkgRoot, 'lib1', 'src')
+                //     ]
+                // }
             })
         ]
     },
@@ -33,7 +42,17 @@ export default [
             commonjs(),
             typescript({
                 // verbosity: 3,
-                tsconfig: path.join(pkgRoot, 'lib2', 'tsconfig.json')
+                tsconfig: path.join(pkgRoot, 'lib2', 'tsconfig.json'),
+                // useTsconfigDeclarationDir: true,
+                // tsconfigOverride: {
+                //     // compilerOptions: {
+                //     //     declarationDir: path.join(pkgRoot, 'lib2', 'dist', 'typings')
+                //     // },
+                //     include: [
+                //         path.join(pkgRoot, 'lib1', 'src'),
+                //         path.join(pkgRoot, 'lib2', 'src')
+                //     ]
+                // },
             })
         ]
     }

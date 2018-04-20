@@ -6,5 +6,8 @@
 			"zerollup-demo-lib1/*": ["lib1/src/*"],
 			"zerollup-demo-*": ["*/src"]
 		}
-	}
+	},
+        "include": [
+          "./src"
+        ]
 }
