@@ -1,5 +1,5 @@
-import './bootstrap'
-import config from './config'
+import 'zerollup-demo-site1/bootstrap'
+import config from '~/config'
 import {faceAngel} from 'zerollup-demo-lib2'
 
 export default function app(node) {

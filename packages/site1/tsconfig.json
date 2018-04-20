@@ -1,0 +1,10 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"paths": {
+			"~/*": ["site1/src/*"],
+			"zerollup-demo-site1/*": ["site1/src/*"],
+			"zerollup-demo-*": ["*/src"]
+		}
+	}
+}

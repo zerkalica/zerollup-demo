@@ -18,4 +18,4 @@ var zerollupDemoSite1 = (function (config) {
     return app;
 
 }(zerollupDemoSite1Config));
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=index.development.js.map

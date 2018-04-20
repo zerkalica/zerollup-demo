@@ -1,9 +1,7 @@
 {
 	"compilerOptions": {
-		"baseUrl": ".",
-		"paths": {
-			"@zerollup-demo-*": ["packages/*/src"]
-		},
+		"baseUrl": "packages",
+		"newLine": "LF",
 		"allowSyntheticDefaultImports": false,
 		"module": "esnext",
 		"target": "es5",
