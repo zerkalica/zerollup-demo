@@ -12,7 +12,9 @@
     "build": "NODE_ENV=$npm_package_config_env rollup -c node:@zerollup/preset-ts",
     "dev": "NODE_ENV=development rollup -w -c node:@zerollup/preset-ts",
     "postinstall": "lerna bootstrap --hoist && cp ./node_modules/@zerollup/plugin-assets/@types/assets-ts-fix ./node_modules/@types",
-    "publish": "npm run build && lerna publish --yes"
+    "publish": "npm run build && lerna publish --yes",
+    "bug": "rollup -c",
+    "bug.site": "rollup -c ./rollup.site.config.js"
   },
   "author": "",
   "license": "ISC",

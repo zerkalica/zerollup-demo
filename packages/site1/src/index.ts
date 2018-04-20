@@ -1,4 +1,4 @@
-import 'zerollup-demo-site1/bootstrap'
+import '~/bootstrap'
 import config from '~/config'
 import {faceAngel} from 'zerollup-demo-lib2'
 

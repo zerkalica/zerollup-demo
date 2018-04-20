@@ -1,6 +1,4 @@
-import { config } from '@zerollup/injector';
-
-var faceAngel = config.assetsUrl + "zerollup_demo_lib1/face_angel.png"
+// import faceAngel from './face-angel.png'
+var faceAngel = 'test';
 
 export { faceAngel };
-//# sourceMappingURL=index.mjs.map

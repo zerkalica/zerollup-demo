@@ -5,6 +5,7 @@
 		"allowSyntheticDefaultImports": false,
 		"module": "esnext",
 		"target": "es5",
+                "declaration": true,
 		"moduleResolution": "node",
 		"sourceMap": true,
 		"lib": [

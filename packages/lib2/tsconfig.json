@@ -3,7 +3,8 @@
 	"compilerOptions": {
 		"paths": {
 			"~/*": ["lib2/src/*"],
-			"zerollup-demo-lib2/*": ["lib2/src/*"]
+			"zerollup-demo-lib2/*": ["lib2/src/*"],
+			"zerollup-demo-*": ["*/src"]
 		}
 	}
 }
