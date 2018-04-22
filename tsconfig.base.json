@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"newLine": "LF",
+		"allowSyntheticDefaultImports": false,
+		"module": "esnext",
+		"target": "es5",
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"lib": [
+			"dom",
+			"esnext"
+		],
+		"jsx": "react",
+		"noImplicitAny": false,
+		"noUnusedLocals": true,
+		"noImplicitReturns": true,
+		"alwaysStrict": true,
+		"strictNullChecks": false,
+		"strictFunctionTypes": true,
+		"removeComments": false,
+		"experimentalDecorators": true
+	},
+	"exclude": ["dist", "node_modules"]
+}

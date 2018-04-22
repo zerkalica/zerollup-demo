@@ -1,6 +1,5 @@
-var some = { some: 'some-123' };
+import { faceAngel } from 'zerollup-demo-lib1';
+export { faceAngel } from 'zerollup-demo-lib1';
 
-// import faceAngel from './face-angel.png'
-var faceAngel = 'test';
-
-export { some, faceAngel };
+// './some'
+//# sourceMappingURL=index.mjs.map

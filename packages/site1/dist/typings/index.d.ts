@@ -1,2 +1,2 @@
-import 'zerollup-demo-site1/bootstrap';
+import './bootstrap';
 export default function app(node: any): void;

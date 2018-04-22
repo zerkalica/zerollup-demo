@@ -1,1 +1,1 @@
-export * from 'zerollup-demo-lib1/some';
+export * from './some';
