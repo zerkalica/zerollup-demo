@@ -10,8 +10,6 @@ var zerollupDemoSite1 = (function () {
 
     var faceAngel = config$1.assetsUrl + "zerollup_demo_lib1/face_angel.png";
 
-    // './some'
-
     function app(node) {
         console.log(node, config, faceAngel);
     }

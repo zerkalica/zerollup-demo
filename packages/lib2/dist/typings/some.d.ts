@@ -1,4 +1,1 @@
-declare const _default: {
-    some: string;
-};
-export default _default;
+export declare const some = "123";

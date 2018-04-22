@@ -1,1 +1,1 @@
-export default { some: 'some-123' }
+export const some = '123'
