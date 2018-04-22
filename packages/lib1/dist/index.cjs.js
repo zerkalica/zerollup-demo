@@ -2,8 +2,9 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-// import faceAngel from './face-angel.png'
-var faceAngel = 'test';
+var injector = require('@zerollup/injector');
+
+var faceAngel = injector.config.assetsUrl + "zerollup_demo_lib1/face_angel.png"
 
 // './some'
 

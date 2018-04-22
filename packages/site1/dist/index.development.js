@@ -8,8 +8,7 @@ var zerollupDemoSite1 = (function () {
     config$1.assetsUrl = cnf.assetsUrl;
     // './config'
 
-    // import faceAngel from './face-angel.png'
-    var faceAngel = 'test';
+    var faceAngel = config$1.assetsUrl + "zerollup_demo_lib1/face_angel.png";
 
     // './some'
 

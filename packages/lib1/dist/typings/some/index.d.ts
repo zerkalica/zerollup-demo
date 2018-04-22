@@ -1,2 +1,2 @@
-declare const faceAngel = "test";
+import faceAngel from './face-angel.png';
 export { faceAngel };

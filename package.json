@@ -11,7 +11,7 @@
     "clean.all": "lerna clean --yes && rm -rf packages/*/package-lock.json node_modules packages/*/.rpt2_cache packages/*/dist docs/*",
     "build": "NODE_ENV=$npm_package_config_env rollup -c node:@zerollup/preset-ts",
     "dev": "NODE_ENV=development rollup -w -c node:@zerollup/preset-ts",
-    "postinstall": "lerna bootstrap --hoist && cp ./node_modules/@zerollup/plugin-assets/@types/assets-ts-fix ./node_modules/@types",
+    "postinstall": "lerna bootstrap --hoist && cp -rf ./node_modules/@zerollup/plugin-assets/@types/assets-fix ./node_modules/@types",
     "publish": "npm run build && lerna publish --yes"
   },
   "author": "",

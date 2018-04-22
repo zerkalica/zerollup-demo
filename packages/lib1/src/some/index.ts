@@ -1,4 +1,3 @@
-// import faceAngel from './face-angel.png'
-const faceAngel = 'test'
+import faceAngel from './face-angel.png'
 
 export {faceAngel}
