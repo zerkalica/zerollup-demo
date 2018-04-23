@@ -29,6 +29,6 @@
   ],
   "dependencies": {
     "zerollup-demo-lib2": "^1",
-    "@zerollup/injector": "^1"
+    "@zerollup/base-url": "^1"
   }
 }

@@ -1,4 +1,4 @@
 import cnf from 'zerollup-demo-site1/config'
-import {config} from '@zerollup/injector'
+import bu from '@zerollup/base-url'
 
-config.assetsUrl = cnf.assetsUrl
+bu.assets = cnf.assetsUrl

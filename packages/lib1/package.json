@@ -28,6 +28,6 @@
     "dist"
   ],
   "dependencies": {
-    "@zerollup/injector": "^1"
+    "@zerollup/base-url": "^1"
   }
 }
