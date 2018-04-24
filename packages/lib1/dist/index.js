@@ -8,9 +8,5 @@ var bu = _interopDefault(require('@zerollup/base-url'));
 
 var faceAngel = bu.assets + "zerollup_demo_lib1/face_angel.png"
 
-// './face-angel.png'
-
-// './some'
-
 exports.faceAngel = faceAngel;
-//# sourceMappingURL=index.cjs.js.map
+//# sourceMappingURL=index.js.map

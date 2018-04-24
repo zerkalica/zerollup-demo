@@ -8,6 +8,5 @@ pids
 node_modules
 tags
 .tags*
-*.map
 /*.sh
 packages/*/package-lock.json

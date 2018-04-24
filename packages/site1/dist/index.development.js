@@ -8,15 +8,12 @@ var zerollupDemoSite1 = (function (config) {
     };
 
     baseUrl.assets = config.assetsUrl;
-    // './config'
 
     var faceAngel = baseUrl.assets + "zerollup_demo_lib1/face_angel.png";
 
     function app(node) {
         console.log(node, config, faceAngel);
     }
-    // './bootstrap'
-    // './config'
 
     return app;
 

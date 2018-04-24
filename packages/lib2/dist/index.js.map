@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/some.ts"],"sourcesContent":["export const some = '123'\n"],"names":[],"mappings":";;;;;;IAAa,IAAI,GAAG,KAAK;;;;;"}
