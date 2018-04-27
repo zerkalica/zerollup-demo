@@ -1,1 +1,1 @@
-{"version":3,"file":"index.mjs","sources":["../src/some/face-angel.png"],"sourcesContent":["\nimport bu from '@zerollup/base-url'\nexport default bu.assets + \"zerollup_demo_lib1/face_angel.png\"\n"],"names":[],"mappings":";;AAEA,gBAAe,EAAE,CAAC,MAAM,GAAG,mCAAmC;;;;"}
+{"version":3,"file":"index.mjs","sources":["../src/some/face-angel.png"],"sourcesContent":["\nimport bu from '@zerollup/base-url'\nexport default bu.assets + 'zerollup_demo_lib1/face_angel.png'\n"],"names":[],"mappings":";;AAEA,gBAAe,EAAE,CAAC,MAAM,GAAG,mCAAmC;;;;"}

@@ -28,6 +28,7 @@
     "dist"
   ],
   "dependencies": {
+    "@zerollup/base-url": "^1",
     "zerollup-demo-lib1": "^1"
   }
 }

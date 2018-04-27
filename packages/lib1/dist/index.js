@@ -6,7 +6,7 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 
 var bu = _interopDefault(require('@zerollup/base-url'));
 
-var faceAngel = bu.assets + "zerollup_demo_lib1/face_angel.png"
+var faceAngel = bu.assets + 'zerollup_demo_lib1/face_angel.png'
 
 exports.faceAngel = faceAngel;
 //# sourceMappingURL=index.js.map

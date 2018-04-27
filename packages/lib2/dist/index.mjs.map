@@ -1,1 +1,1 @@
-{"version":3,"file":"index.mjs","sources":["../src/some.ts"],"sourcesContent":["export const some = '123'\n"],"names":[],"mappings":";;;IAAa,IAAI,GAAG,KAAK;;;;"}
+{"version":3,"file":"index.mjs","sources":["../src/some.ts","../src/face-cool.png"],"sourcesContent":["export const some = '123'\n","\nimport bu from '@zerollup/base-url'\nexport default bu.assets + 'zerollup_demo_lib2/face_cool.png'\n"],"names":[],"mappings":";;;;IAAa,IAAI,GAAG,KAAK;;ACEzB,eAAe,EAAE,CAAC,MAAM,GAAG,kCAAkC;;;;"}
