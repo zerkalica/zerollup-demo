@@ -22,7 +22,7 @@ const configBaseUrl = 'ZEROLLUP_CONFIG_BASE_URL'
 const config: Config = {
     some: 'index',
     configBaseUrl,
-    assetsUrl: `${configBaseUrl}/i`
+    assetsUrl: `${configBaseUrl}i`
 }
 
 export default config

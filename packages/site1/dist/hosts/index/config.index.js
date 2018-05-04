@@ -6,7 +6,7 @@ var zerollupDemoSite1Config = (function () {
     var config = {
         some: 'index',
         configBaseUrl: configBaseUrl,
-        assetsUrl: configBaseUrl + "/i"
+        assetsUrl: configBaseUrl + "i"
     };
 
     return config;

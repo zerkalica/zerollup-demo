@@ -6,7 +6,7 @@ var zerollupDemoSite1Config = (function () {
     var config = {
         some: 'index',
         configBaseUrl: configBaseUrl,
-        assetsUrl: configBaseUrl + "/i"
+        assetsUrl: configBaseUrl + "i"
     };
 
     // https://my-host2-static.com/statics/zerollup_demo_site1/1.0.1/ = https://my-host2-static.com/statics/zerollup_demo_site1/1.0.1/
