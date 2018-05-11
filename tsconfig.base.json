@@ -18,7 +18,10 @@
 		"strictNullChecks": false,
 		"strictFunctionTypes": true,
 		"removeComments": false,
-		"experimentalDecorators": true
+		"experimentalDecorators": true,
+                "plugins": [
+                    { "transform": "@zerollup/ts-transform-paths" }
+                ]
 	},
 	"exclude": ["dist", "node_modules"]
 }

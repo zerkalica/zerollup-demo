@@ -1,1 +1,2 @@
-export declare type A = string;
+import { B } from './B';
+export declare type A = B;
