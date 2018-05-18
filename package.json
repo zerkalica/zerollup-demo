@@ -13,7 +13,7 @@
     "build": "rollup -c node:@zerollup/preset-ts",
     "dev": "rollup -w -c node:@zerollup/preset-ts",
     "postinstall": "lerna bootstrap --hoist && cp -rf ./node_modules/@zerollup/base-url/@types/assets-fix ./node_modules/@types",
-    "publish": "npm run build && lerna publish --yes"
+    "publish": "npm run build && lerna publish --conventional-commits --yes"
   },
   "author": "",
   "license": "ISC",
@@ -21,7 +21,7 @@
     "@zerollup/preset-ts": "^1",
     "@zerollup/ts-transform-paths": "^1",
     "lerna": "^2.11.0",
-    "rollup": "^0.57.1",
+    "rollup": "^0.59.1",
     "typescript": "^2.8.3"
   }
 }

@@ -1,12 +1,15 @@
 {
-  "lerna": "2.9.1",
+  "lerna": "2.11.0",
   "command": {
     "init": {
       "exact": true
+    },
+    "publish": {
+      "message": "chore(release): %s [ci skip]"
     }
   },
   "packages": [
     "packages/*"
   ],
-  "version": "1.0.0"
+  "version": "1.1.4"
 }
