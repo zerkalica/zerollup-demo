@@ -1,2 +1,2 @@
-import { B } from './B';
+import { B } from "./B";
 export declare type A = B;

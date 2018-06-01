@@ -19,9 +19,9 @@
 		"strictFunctionTypes": true,
 		"removeComments": false,
 		"experimentalDecorators": true,
-                "plugins": [
-                    { "transform": "@zerollup/ts-transform-paths" }
-                ]
+		"plugins": [
+			{ "transform": "@zerollup/ts-transform-paths" }
+		]
 	},
 	"exclude": ["dist", "node_modules"]
 }

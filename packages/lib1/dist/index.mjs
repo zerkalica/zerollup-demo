@@ -1,6 +1,11 @@
-import bu from '@zerollup/base-url';
+//import faceAngel from 'zerollup-demo-lib1/some/face-angel.png'
+var faceAngel = require("./face-angel.png");
 
-var faceAngel = bu.assets + 'zerollup_demo_lib1/face_angel.png'
+var AppTheme = {
+    self: '1',
+};
 
-export { faceAngel };
+var some = require("./some");
+
+export { AppTheme, some, faceAngel };
 //# sourceMappingURL=index.mjs.map

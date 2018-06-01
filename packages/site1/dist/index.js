@@ -9,7 +9,10 @@ var zerollupDemoSite1 = (function (config) {
 
     baseUrl.assets = config.assetsUrl;
 
-    var faceAngel = baseUrl.assets + 'zerollup_demo_lib1/face_angel.png';
+    //import faceAngel from 'zerollup-demo-lib1/some/face-angel.png'
+    var faceAngel = require("./face-angel.png");
+
+    var some = require("./some");
 
     var faceCool = baseUrl.assets + 'zerollup_demo_lib2/face_cool.png';
 

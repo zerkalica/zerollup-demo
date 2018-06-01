@@ -9,7 +9,6 @@
   "scripts": {
     "clean": "rm -rf packages/*/.rpt2_cache packages/*/dist",
     "clean.all": "lerna clean --yes && rm -rf package-lock.json *.log packages/*/package-lock.json node_modules packages/*/.rpt2_cache packages/*/dist docs/*",
-    "b": "lerna exec --scope=zerollup-demo-lib1 -- rollup -c node:@zerollup/preset-ts",
     "build": "rollup -c node:@zerollup/preset-ts",
     "dev": "rollup -w -c node:@zerollup/preset-ts",
     "postinstall": "lerna bootstrap --hoist && cp -rf ./node_modules/@zerollup/base-url/@types/assets-fix ./node_modules/@types",
@@ -21,7 +20,7 @@
     "@zerollup/preset-ts": "^1",
     "@zerollup/ts-transform-paths": "^1",
     "lerna": "^2.11.0",
-    "rollup": "^0.59.1",
-    "typescript": "^2.8.3"
+    "rollup": "^0.59.4",
+    "typescript": "^2.9.1"
   }
 }
