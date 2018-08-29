@@ -1,3 +1,3 @@
+import faceAngel from "./face-angel.png";
 export { A } from './A';
-declare const faceAngel: any;
 export { faceAngel };

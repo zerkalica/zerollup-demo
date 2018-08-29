@@ -2,8 +2,11 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-//import faceAngel from 'zerollup-demo-lib1/some/face-angel.png'
-var faceAngel = require("./face-angel.png");
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var bu = _interopDefault(require('@zerollup/base-url'));
+
+var faceAngel = bu.assets + 'zerollup_demo_lib1/face_angel.png';
 
 var AppTheme = {
     self: '1',

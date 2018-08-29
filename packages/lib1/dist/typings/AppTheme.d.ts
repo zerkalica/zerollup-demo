@@ -1,2 +1,2 @@
-import { AppClasses } from './AppClasses';
+import { AppClasses } from "./AppClasses";
 export declare const AppTheme: AppClasses;
